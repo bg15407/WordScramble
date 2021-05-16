@@ -13,6 +13,12 @@ struct ContentView: View {
             Text("Hello, world!")
             Text("Hello, world!")
             Text("Hello, world!")
+            
+            ForEach(0..<6){number in
+                Text("Dynamic \(number)")
+            }
+            
+            Text("Hello, end of the world!")
         }
     }
 }
